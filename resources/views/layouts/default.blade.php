@@ -1,19 +1,19 @@
 <!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>@yield('title', 'Weibo App') - Laravel 新手入门教程</title>
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
 </head>
 <body>
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-    <div class="container">
-        <a href="/" class="navbar-brand">Weibo App</a>
-        <ul class="navbar-nav justify-content-end">
-            <li class="nav-item"><a href="/help" class="nav-link">帮助</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">登录</a></li>
-        </ul>
+@include('layouts._header')
+<div class="container">
+    <div class="offset-md-1 col-md-10">
+        @yield('contennt')
+        @include('layouts._footer')
     </div>
-</nav>
-@yield('content')
+</div>
+
+
 </body>
 </html>
