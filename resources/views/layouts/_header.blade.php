@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a href="/" class="navbar-brand">Weibo App</a>
         <ul class="navbar-nav justify-content-end">
